@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'App\Http\Controllers\RequestLog@Home')->name('home');
+Route::get('/about', 'App\Http\Controllers\RequestLog@About')->name('about');

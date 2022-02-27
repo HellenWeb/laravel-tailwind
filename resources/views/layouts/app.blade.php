@@ -18,8 +18,8 @@
                         <h1 class="text-xl">Laravel Tailwind</h1>
                     </div>
                     <div class="bar mt-4">
-                        <a href="#" class="item mr-1 p-3 hover:bg-slate-200 hover:px-3 hover:py-3 transition-all">Home</a>
-                        <a href="#" class="item p-3 hover:bg-slate-200 hover:px-3 hover:py-3 transition-all">About</a>
+                        <a href="{{ route('home') }}" class="item mr-1 p-3 hover:bg-slate-200 hover:px-3 hover:py-3 transition-all">Home</a>
+                        <a href="{{ route('about') }}" class="item p-3 hover:bg-slate-200 hover:px-3 hover:py-3 transition-all">About</a>
                     </div>
                 </div>
             </div>
